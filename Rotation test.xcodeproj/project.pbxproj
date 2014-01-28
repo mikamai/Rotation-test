@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		885034471898166400D9C71C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885034461898166400D9C71C /* Foundation.framework */; };
+		885034491898166400D9C71C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885034481898166400D9C71C /* CoreGraphics.framework */; };
+		8850344B1898166400D9C71C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8850344A1898166400D9C71C /* UIKit.framework */; };
+		885034511898166400D9C71C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8850344F1898166400D9C71C /* InfoPlist.strings */; };
+		885034531898166400D9C71C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 885034521898166400D9C71C /* main.m */; };
+		885034571898166400D9C71C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 885034561898166400D9C71C /* AppDelegate.m */; };
+		8850345A1898166400D9C71C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 885034581898166400D9C71C /* Main.storyboard */; };
+		8850345D1898166400D9C71C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8850345C1898166400D9C71C /* ViewController.m */; };
+		8850345F1898166400D9C71C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8850345E1898166400D9C71C /* Images.xcassets */; };
+		885034661898166400D9C71C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885034651898166400D9C71C /* XCTest.framework */; };
+		885034671898166400D9C71C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885034461898166400D9C71C /* Foundation.framework */; };
+		885034681898166400D9C71C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8850344A1898166400D9C71C /* UIKit.framework */; };
+		885034701898166400D9C71C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8850346E1898166400D9C71C /* InfoPlist.strings */; };
+		885034721898166400D9C71C /* Rotation_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 885034711898166400D9C71C /* Rotation_testTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		885034691898166400D9C71C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8850343B1898166400D9C71C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 885034421898166400D9C71C;
+			remoteInfo = "Rotation test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		885034431898166400D9C71C /* Rotation test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rotation test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		885034461898166400D9C71C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		885034481898166400D9C71C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8850344A1898166400D9C71C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8850344E1898166400D9C71C /* Rotation test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rotation test-Info.plist"; sourceTree = "<group>"; };
+		885034501898166400D9C71C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		885034521898166400D9C71C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		885034541898166400D9C71C /* Rotation test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rotation test-Prefix.pch"; sourceTree = "<group>"; };
+		885034551898166400D9C71C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		885034561898166400D9C71C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		885034591898166400D9C71C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8850345B1898166400D9C71C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8850345C1898166400D9C71C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8850345E1898166400D9C71C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		885034641898166400D9C71C /* Rotation testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rotation testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		885034651898166400D9C71C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8850346D1898166400D9C71C /* Rotation testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rotation testTests-Info.plist"; sourceTree = "<group>"; };
+		8850346F1898166400D9C71C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		885034711898166400D9C71C /* Rotation_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rotation_testTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		885034401898166400D9C71C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885034491898166400D9C71C /* CoreGraphics.framework in Frameworks */,
+				8850344B1898166400D9C71C /* UIKit.framework in Frameworks */,
+				885034471898166400D9C71C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885034611898166400D9C71C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885034661898166400D9C71C /* XCTest.framework in Frameworks */,
+				885034681898166400D9C71C /* UIKit.framework in Frameworks */,
+				885034671898166400D9C71C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8850343A1898166400D9C71C = {
+			isa = PBXGroup;
+			children = (
+				8850344C1898166400D9C71C /* Rotation test */,
+				8850346B1898166400D9C71C /* Rotation testTests */,
+				885034451898166400D9C71C /* Frameworks */,
+				885034441898166400D9C71C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		885034441898166400D9C71C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				885034431898166400D9C71C /* Rotation test.app */,
+				885034641898166400D9C71C /* Rotation testTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		885034451898166400D9C71C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				885034461898166400D9C71C /* Foundation.framework */,
+				885034481898166400D9C71C /* CoreGraphics.framework */,
+				8850344A1898166400D9C71C /* UIKit.framework */,
+				885034651898166400D9C71C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8850344C1898166400D9C71C /* Rotation test */ = {
+			isa = PBXGroup;
+			children = (
+				885034551898166400D9C71C /* AppDelegate.h */,
+				885034561898166400D9C71C /* AppDelegate.m */,
+				885034581898166400D9C71C /* Main.storyboard */,
+				8850345B1898166400D9C71C /* ViewController.h */,
+				8850345C1898166400D9C71C /* ViewController.m */,
+				8850345E1898166400D9C71C /* Images.xcassets */,
+				8850344D1898166400D9C71C /* Supporting Files */,
+			);
+			path = "Rotation test";
+			sourceTree = "<group>";
+		};
+		8850344D1898166400D9C71C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8850344E1898166400D9C71C /* Rotation test-Info.plist */,
+				8850344F1898166400D9C71C /* InfoPlist.strings */,
+				885034521898166400D9C71C /* main.m */,
+				885034541898166400D9C71C /* Rotation test-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8850346B1898166400D9C71C /* Rotation testTests */ = {
+			isa = PBXGroup;
+			children = (
+				885034711898166400D9C71C /* Rotation_testTests.m */,
+				8850346C1898166400D9C71C /* Supporting Files */,
+			);
+			path = "Rotation testTests";
+			sourceTree = "<group>";
+		};
+		8850346C1898166400D9C71C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8850346D1898166400D9C71C /* Rotation testTests-Info.plist */,
+				8850346E1898166400D9C71C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		885034421898166400D9C71C /* Rotation test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 885034751898166400D9C71C /* Build configuration list for PBXNativeTarget "Rotation test" */;
+			buildPhases = (
+				8850343F1898166400D9C71C /* Sources */,
+				885034401898166400D9C71C /* Frameworks */,
+				885034411898166400D9C71C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rotation test";
+			productName = "Rotation test";
+			productReference = 885034431898166400D9C71C /* Rotation test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		885034631898166400D9C71C /* Rotation testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 885034781898166400D9C71C /* Build configuration list for PBXNativeTarget "Rotation testTests" */;
+			buildPhases = (
+				885034601898166400D9C71C /* Sources */,
+				885034611898166400D9C71C /* Frameworks */,
+				885034621898166400D9C71C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8850346A1898166400D9C71C /* PBXTargetDependency */,
+			);
+			name = "Rotation testTests";
+			productName = "Rotation testTests";
+			productReference = 885034641898166400D9C71C /* Rotation testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8850343B1898166400D9C71C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Mikamai;
+				TargetAttributes = {
+					885034631898166400D9C71C = {
+						TestTargetID = 885034421898166400D9C71C;
+					};
+				};
+			};
+			buildConfigurationList = 8850343E1898166400D9C71C /* Build configuration list for PBXProject "Rotation test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8850343A1898166400D9C71C;
+			productRefGroup = 885034441898166400D9C71C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				885034421898166400D9C71C /* Rotation test */,
+				885034631898166400D9C71C /* Rotation testTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		885034411898166400D9C71C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8850345F1898166400D9C71C /* Images.xcassets in Resources */,
+				885034511898166400D9C71C /* InfoPlist.strings in Resources */,
+				8850345A1898166400D9C71C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885034621898166400D9C71C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885034701898166400D9C71C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8850343F1898166400D9C71C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8850345D1898166400D9C71C /* ViewController.m in Sources */,
+				885034571898166400D9C71C /* AppDelegate.m in Sources */,
+				885034531898166400D9C71C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885034601898166400D9C71C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885034721898166400D9C71C /* Rotation_testTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8850346A1898166400D9C71C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 885034421898166400D9C71C /* Rotation test */;
+			targetProxy = 885034691898166400D9C71C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8850344F1898166400D9C71C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				885034501898166400D9C71C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		885034581898166400D9C71C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				885034591898166400D9C71C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8850346E1898166400D9C71C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8850346F1898166400D9C71C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		885034731898166400D9C71C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		885034741898166400D9C71C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		885034761898166400D9C71C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rotation test/Rotation test-Prefix.pch";
+				INFOPLIST_FILE = "Rotation test/Rotation test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		885034771898166400D9C71C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rotation test/Rotation test-Prefix.pch";
+				INFOPLIST_FILE = "Rotation test/Rotation test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		885034791898166400D9C71C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Rotation test.app/Rotation test";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rotation test/Rotation test-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Rotation testTests/Rotation testTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8850347A1898166400D9C71C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Rotation test.app/Rotation test";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rotation test/Rotation test-Prefix.pch";
+				INFOPLIST_FILE = "Rotation testTests/Rotation testTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8850343E1898166400D9C71C /* Build configuration list for PBXProject "Rotation test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885034731898166400D9C71C /* Debug */,
+				885034741898166400D9C71C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		885034751898166400D9C71C /* Build configuration list for PBXNativeTarget "Rotation test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885034761898166400D9C71C /* Debug */,
+				885034771898166400D9C71C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		885034781898166400D9C71C /* Build configuration list for PBXNativeTarget "Rotation testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885034791898166400D9C71C /* Debug */,
+				8850347A1898166400D9C71C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8850343B1898166400D9C71C /* Project object */;
+}
