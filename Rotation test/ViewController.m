@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "StickerView.h"
 
 @interface ViewController ()
 
@@ -16,8 +17,10 @@
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+  [super viewDidLoad];
+  StickerView *sticker = [[StickerView alloc] initWithImage:[UIImage imageNamed:@"mikamai.png"]];
+  sticker.center = self.view.center;
+  [self.view addSubview:sticker];
 }
 
 - (void)didReceiveMemoryWarning

@@ -21,6 +21,8 @@
 		885034681898166400D9C71C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8850344A1898166400D9C71C /* UIKit.framework */; };
 		885034701898166400D9C71C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8850346E1898166400D9C71C /* InfoPlist.strings */; };
 		885034721898166400D9C71C /* Rotation_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 885034711898166400D9C71C /* Rotation_testTests.m */; };
+		8850347D18981AC200D9C71C /* StickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8850347C18981AC200D9C71C /* StickerView.m */; };
+		885034841898EE1F00D9C71C /* mikamai.png in Resources */ = {isa = PBXBuildFile; fileRef = 885034831898EE1F00D9C71C /* mikamai.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		8850346D1898166400D9C71C /* Rotation testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rotation testTests-Info.plist"; sourceTree = "<group>"; };
 		8850346F1898166400D9C71C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		885034711898166400D9C71C /* Rotation_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rotation_testTests.m; sourceTree = "<group>"; };
+		8850347B18981AC200D9C71C /* StickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickerView.h; sourceTree = "<group>"; };
+		8850347C18981AC200D9C71C /* StickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickerView.m; sourceTree = "<group>"; };
+		885034831898EE1F00D9C71C /* mikamai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mikamai.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +120,8 @@
 				885034551898166400D9C71C /* AppDelegate.h */,
 				885034561898166400D9C71C /* AppDelegate.m */,
 				885034581898166400D9C71C /* Main.storyboard */,
+				8850347B18981AC200D9C71C /* StickerView.h */,
+				8850347C18981AC200D9C71C /* StickerView.m */,
 				8850345B1898166400D9C71C /* ViewController.h */,
 				8850345C1898166400D9C71C /* ViewController.m */,
 				8850345E1898166400D9C71C /* Images.xcassets */,
@@ -126,6 +133,7 @@
 		8850344D1898166400D9C71C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				885034831898EE1F00D9C71C /* mikamai.png */,
 				8850344E1898166400D9C71C /* Rotation test-Info.plist */,
 				8850344F1898166400D9C71C /* InfoPlist.strings */,
 				885034521898166400D9C71C /* main.m */,
@@ -230,6 +238,7 @@
 			files = (
 				8850345F1898166400D9C71C /* Images.xcassets in Resources */,
 				885034511898166400D9C71C /* InfoPlist.strings in Resources */,
+				885034841898EE1F00D9C71C /* mikamai.png in Resources */,
 				8850345A1898166400D9C71C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8850347D18981AC200D9C71C /* StickerView.m in Sources */,
 				8850345D1898166400D9C71C /* ViewController.m in Sources */,
 				885034571898166400D9C71C /* AppDelegate.m in Sources */,
 				885034531898166400D9C71C /* main.m in Sources */,
